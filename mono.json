@@ -9,6 +9,6 @@
         "http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"
     ],
     "operations": [
-        { "file": "operations.js", "function": "run" }
+        { "file": "operations.js", "function": "initialize" }
     ]
 }
