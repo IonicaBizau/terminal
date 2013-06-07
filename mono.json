@@ -4,6 +4,8 @@
     "name": "terminal",
     "dependencies": [
         "/main.js",
+        "/term.js",
+        "/socket.io.js",
         "http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"
     ],
     "operations": [
