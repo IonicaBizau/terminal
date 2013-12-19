@@ -8,9 +8,6 @@
     "url": "git://github.com/IonicaBizau/terminal.git"
   },
   "mono": {
-    "source": "github",
-    "owner": "IonicaBizau",
-    "name": "terminal",
     "dependencies": [
         "/main.js",
         "/term.js",
