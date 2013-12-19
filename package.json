@@ -1,0 +1,33 @@
+{
+  "name": "terminal",
+  "version": "0.0.0",
+  "description": "Mono module that connects the terminal with the browser.",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/IonicaBizau/terminal.git"
+  },
+  "mono": {
+    "source": "github",
+    "owner": "IonicaBizau",
+    "name": "terminal",
+    "dependencies": [
+        "/main.js",
+        "/term.js",
+        "/socket.io.js",
+        "http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"
+    ],
+    "operations": [
+        { "file": "operations.js", "function": "initialize" }
+    ]
+  },
+  "keywords": [
+    "terminal",
+    "mono"
+  ],
+  "author": "Ionică Bizău",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/terminal/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/terminal"
+}
